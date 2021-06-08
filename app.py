@@ -23,7 +23,7 @@ def jawab_api():
     else:
         jawaban = {
             "Error" : "NoneType object JSON request",
-            "message" : request.json["message"]
+            "message" : "No JSON post request detected"
         }
     
     return json.dumps(jawaban)

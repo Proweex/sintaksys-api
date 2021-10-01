@@ -9,7 +9,7 @@ Original file is located at
 #requirements
 #!pip install docx2txt
 #!pip install tensorflow==2.5.0
-
+ 
 import re
 import os
 
